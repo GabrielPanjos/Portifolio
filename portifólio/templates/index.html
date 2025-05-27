@@ -5,30 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio do Pereira</title>
     <link rel="stylesheet" href="../static/style.css" />
+    <!-- CSS do AOS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-        <nav>
-            <a href="#aboutMe">SOBRE MIM</a>
-            <a href="#projects">PROJETOS</a>
-            <a href="#contacts">CONTATOS</a>
-        </nav>
+      <nav>
+        <a href="#aboutMe">SOBRE MIM</a>
+        <a href="#projects">PROJETOS</a>
+        <a href="#contacts">CONTATOS</a>
+      </nav>
     </header>
     <main>
-        <div id="div-h1">
-            <h1>Portfólio do Pereira</h1>
-        </div>
+      <div id="div-h1">
+        <h1 data-aos="fade-down">Portfólio do Pereira</h1>
+      </div>
+      <div id="conteudo">
         <aside>
-            <div>
-                <h2 class="font-size-medio">Gabriel Pereira</h2>
-                <p class="devLearning">Desenvolvedor em Aprendizado</p>
-            </div>
+          <div data-aos="fade-up">
+            <h2 class="font-size-medio">Gabriel Pereira</h2>
+            <p class="devLearning">Desenvolvedor em Aprendizado</p>
+          </div>
         </aside>
-        <section></section>
+        <section>
+          <div data-aos="fade-up" id="aboutMe">
+            <h2>Sobre Pereira</h2>
+            <h2>Linguagens e Ferramentas</h2>
+          </div>
+        </section>
+      </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="../static/script.js"></script>
+    <!-- Script do AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
