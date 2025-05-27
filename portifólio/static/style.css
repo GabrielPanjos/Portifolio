@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #0E0D0D;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #5320A6;
+    width: 100%;
+    height: 150px;
+    border-top: 10px solid #8B32F4;
+    text-align: right;
+}
+
+main {}
+
+a {
+    color: #F3F3F3;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav {
+    margin: 50px;
+    padding-right: 200px;
+}
+
+h1 {
+    color: #F3F3F3;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#div-h1 {
+    width: 100%;
+    height: 900px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+aside {
+    height: 100%;
+    width: 550px;
+    align-items: center;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+.devLearning {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.font-size-medio {
+    font-weight: 600;
+    font-size: 26px;
+    padding: 5px;
+}
