@@ -60,6 +60,7 @@ aside {
     align-items: center;
     text-align: center;
     color: #F3F3F3;
+    margin: 40px;
 }
 
 .devLearning {
@@ -72,11 +73,13 @@ aside {
     font-weight: 600;
     font-size: 26px;
     padding: 5px;
+    padding-top: 50px;
 }
 
 #aboutMe {
     display: flex;
     justify-content: space-around;
+    padding-top: 300px;
 }
 
 section {
@@ -90,4 +93,20 @@ section {
 #conteudo {
     display: flex;
     flex-direction: row;
+}
+
+.linha {
+    border: 4px solid #8B32F4;
+    ;
+    width: 280px;
+    margin: auto;
+}
+
+.recorte {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: 100%;
+    border: 4px solid #8B32F4;
 }
