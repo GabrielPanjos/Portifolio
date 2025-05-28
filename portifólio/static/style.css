@@ -198,10 +198,12 @@ aside {
     padding-bottom: 30px;
 }
 
-.conteudo-info>#apresentacao {
+#apresentacao {
     padding-top: 80px;
     font-size: 26px;
     font-weight: 500;
+    text-align: justify;
+    text-indent: 2;
 }
 
 .conteudo-info>.linha {
