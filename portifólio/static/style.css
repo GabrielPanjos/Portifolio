@@ -57,7 +57,7 @@ nav {
     padding-right: 200px;
 }
 
-h1 {
+#div-h1>h1 {
     color: #F3F3F3;
     font-size: 80px;
     text-align: center;
@@ -70,7 +70,7 @@ h1 {
     height: 900px;
 }
 
-h1 {
+div-h1>h1 {
     font-weight: 600;
 }
 
@@ -102,7 +102,7 @@ aside {
     padding-top: 300px;
 }
 
-section {
+#section-header {
     height: 100%;
     width: 100%;
     align-items: center;
@@ -110,7 +110,7 @@ section {
     color: #F3F3F3;
 }
 
-#conteudo {
+.conteudo-header {
     display: flex;
     flex-direction: row;
 }
@@ -185,4 +185,31 @@ section {
     transform: rotate(45deg) scale(1);
     opacity: 1;
     transition: 0.5s;
+}
+
+.conteudo-info {
+    color: #F3F3F3;
+}
+
+.conteudo-info>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.conteudo-info>#apresentacao {
+    padding-top: 80px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.conteudo-info>.linha {
+    width: 100%;
+}
+
+#section-body {
+    height: 100%;
+    width: 100%;
+    color: #F3F3F3;
 }
