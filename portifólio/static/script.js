@@ -19,3 +19,7 @@ infoLinks.forEach(link => {
     }
   });
 });
+
+function mostrarInfo(infoId) {
+  
+}

@@ -98,7 +98,7 @@ aside {
 
 #aboutMe {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 300px;
 }
 
@@ -204,11 +204,20 @@ aside {
     font-weight: 500;
     text-align: justify;
     text-indent: 30px;
-    width: 1000px;
+    width: 1100px;
     line-height: 1.5;
+
+    /* ADICIONE ISSO: */
+    margin: 0 auto;
+    /* Centraliza o bloco */
+
+    /*
+    margin: 0 auto; faz com que o bloco #apresentacao (com largura fixa) fique centralizado na página.
+    O text-align: justify; mantém o texto justificado dentro do bloco, o que é ótimo para leitura em blocos grandes.
+    */
 }
 
-#apresentacao > p {
+#apresentacao>p {
     margin-bottom: 10px;
 }
 
