@@ -239,3 +239,13 @@ aside {
     height: 100%;
     width: 100px;
 }
+
+.icon {
+    font-size: 30px;
+}
+
+#contatos-container {
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,96 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio do Pereira</title>
-    <link rel="stylesheet" href="../static/style.css" />
-    <!-- CSS do AOS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header data-aos="fade-down">
-      <nav>
-        <a href="#aboutMe">SOBRE MIM</a>
-        <a href="#projects">PROJETOS</a>
-        <a href="#contacts">CONTATOS</a>
-      </nav>
-    </header>
-    <main>
-      <div data-aos="fade-down" id="div-h1">
-        <h1>Portfólio do Pereira</h1>
-      </div>
-      <div class="conteudo-header">
-        <aside>
-          <div data-aos="fade-up">
-            <img src="../images/Gabriel.jpg" alt="pereira" class="recorte" />
-            <h2 class="font-size-medio">Gabriel Pereira</h2>
-            <p class="devLearning">Desenvolvedor em Aprendizado</p>
-            <div class="linha"></div>
-          </div>
-        </aside>
-        <section id="section-header">
-          <div data-aos="fade-up" id="aboutMe">
-            <div class="container-sobre-pereira">
-              <div class="info" id="sobre-pereira">
-                <h2>Sobre Pereira</h2>
-                <span class="seta"></span>
-              </div>
-            </div>
-            <div class="container-linguagens-e-ferramentas">
-              <div class="info" id="linguagens-e-ferramentas">
-                <h2>Linguagens e Ferramentas</h2>
-                <span class="seta"></span>
-              </div>
-            </div>
-          </div>
-        </section>
-        <aside class="aside2"></aside>
-      </div>
 
-      <div class="conteudo-header">
-        <aside></aside>
-        <section id="section-body">
-          <div class="conteudo-info" id="conteudo-apresentacao" data-aos="fade-right" style="display: none;">
-            <h1>Apresentação</h1>
-            <div class="linha"></div>
-            <div id="apresentacao-container">
-              <div id="apresentacao">
-                <p>
-                  Meu nome é Gabriel Pereira. Sempre gostei de tecnologia e
-                  estou iniciando minha jornada como desenvolvedor. Gosto de
-                  criar interfaces bonitas, funcionais e que proporcionem uma
-                  boa experiência para o usuário.
-                </p>
-                <p>
-                  Sou apaixonado por jogos, música e estou sempre em busca de
-                  aprender algo novo. No momento, estou focado em praticar meus
-                  conhecimentos com projetos simples, como este portfólio que
-                  você está visitando.
-                </p>
-                <p>
-                  Se quiser trocar uma ideia ou conhecer mais sobre meus
-                  projetos, sinta-se à vontade para entrar em contato!
-                </p>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio do Pereira</title>
+  <link rel="stylesheet" href="../static/style.css" />
+  <!-- CSS do AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+</head>
+
+<body>
+  <header data-aos="fade-down">
+    <nav>
+      <a href="#aboutMe">SOBRE MIM</a>
+      <a href="#projects">PROJETOS</a>
+      <a href="#contacts">CONTATOS</a>
+    </nav>
+  </header>
+  <main>
+    <div data-aos="fade-down" id="div-h1">
+      <h1>Portfólio do Pereira</h1>
+    </div>
+    <div class="conteudo-header">
+      <aside>
+        <div data-aos="fade-up">
+          <img src="../images/Gabriel.jpg" alt="pereira" class="recorte" />
+          <h2 class="font-size-medio">Gabriel Pereira</h2>
+          <p class="devLearning">Desenvolvedor em Aprendizado</p>
+          <div class="linha"></div>
+        </div>
+      </aside>
+      <section id="section-header">
+        <div data-aos="fade-up" id="aboutMe">
+          <div class="container-sobre-pereira">
+            <div class="info" id="sobre-pereira">
+              <h2>Sobre Pereira</h2>
+              <span class="seta"></span>
             </div>
           </div>
-          <div id="conteudo-linguagens-e-ferramentas" class="conteudo-info" style="display: none;">
-
+          <div class="container-linguagens-e-ferramentas">
+            <div class="info" id="linguagens-e-ferramentas">
+              <h2>Linguagens e Ferramentas</h2>
+              <span class="seta"></span>
+            </div>
           </div>
-        </section>
-        <aside class="aside2"></aside>
-      </div>
-    </main>
-    <footer></footer>
-    <script src="../static/script.js"></script>
-    <!-- Script do AOS -->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+        </div>
+      </section>
+      <aside class="aside2"></aside>
+    </div>
+
+    <div class="conteudo-header">
+      <aside id="contatos">
+        <h2 class="font-size-medio">CONTATOS</h2>
+        <div id="contatos-container">
+          <div>
+            <a href=""><i class="devicon-github-original icon"></i></a>
+          </div>
+          <div><a href="">
+              <i class="devicon-linkedin-plain icon"></i>
+            </a></div>
+          <div><a href=""></a></div>
+          <div><a href=""></a></div>
+        </div>
+      </aside>
+      <section id="section-body">
+        <div class="conteudo-info" id="conteudo-apresentacao" data-aos="fade-right" style="display: none;">
+          <h1>Apresentação</h1>
+          <div class="linha"></div>
+          <div id="apresentacao-container">
+            <div id="apresentacao">
+              <p>
+                Meu nome é Gabriel Pereira. Sempre gostei de tecnologia e
+                estou iniciando minha jornada como desenvolvedor. Gosto de
+                criar interfaces bonitas, funcionais e que proporcionem uma
+                boa experiência para o usuário.
+              </p>
+              <p>
+                Sou apaixonado por jogos, música e estou sempre em busca de
+                aprender algo novo. No momento, estou focado em praticar meus
+                conhecimentos com projetos simples, como este portfólio que
+                você está visitando.
+              </p>
+              <p>
+                Se quiser trocar uma ideia ou conhecer mais sobre meus
+                projetos, sinta-se à vontade para entrar em contato!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="conteudo-linguagens-e-ferramentas" class="conteudo-info" style="display: none;">
+
+        </div>
+      </section>
+      <aside class="aside2"></aside>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="../static/script.js"></script>
+  <!-- Script do AOS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
