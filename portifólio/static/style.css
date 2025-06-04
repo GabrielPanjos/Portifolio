@@ -36,7 +36,12 @@ a {
     padding-bottom: 12px;
 }
 
-a::after {
+nav {
+    margin: 50px;
+    padding-right: 200px;
+}
+
+nav>a::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -48,13 +53,8 @@ a::after {
     transition: width 0.3s ease-in-out;
 }
 
-a:hover::after {
+nav>a:hover::after {
     width: 100%;
-}
-
-nav {
-    margin: 50px;
-    padding-right: 200px;
 }
 
 #div-h1>h1 {
@@ -206,15 +206,6 @@ aside {
     text-indent: 30px;
     width: 1100px;
     line-height: 1.5;
-
-    /* ADICIONE ISSO: */
-    margin: 0 auto;
-    /* Centraliza o bloco */
-
-    /*
-    margin: 0 auto; faz com que o bloco #apresentacao (com largura fixa) fique centralizado na página.
-    O text-align: justify; mantém o texto justificado dentro do bloco, o que é ótimo para leitura em blocos grandes.
-    */
 }
 
 #apresentacao>p {
@@ -223,6 +214,8 @@ aside {
 
 #apresentacao-container {
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .conteudo-info>.linha {
@@ -244,14 +237,33 @@ aside {
     font-size: 30px;
 }
 
+.icon::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 4px;
+    background-color: #F3F3F3;
+    transition: width 0.3s ease-in-out;
+}
+
+.icon:hover::after {
+    width: 100%;
+}
+
 .div-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 20px;
+    width: 60px;
 }
 
 #contatos-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.div-icon>a {
+    margin-right: 0px;
 }
