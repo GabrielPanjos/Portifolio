@@ -244,8 +244,14 @@ aside {
     font-size: 30px;
 }
 
-#contatos-container {
+.div-icon {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+#contatos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
