@@ -41,6 +41,10 @@ nav {
     padding-right: 200px;
 }
 
+nav>a {
+    transition: transform 0.2s ease-in-out;
+}
+
 nav>a::after {
     content: "";
     position: absolute;
@@ -50,11 +54,15 @@ nav>a::after {
     width: 0%;
     height: 4px;
     background-color: #8B32F4;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.2s ease-in-out;
 }
 
 nav>a:hover::after {
     width: 100%;
+}
+
+nav>a:hover {
+    transform: scale(1.15);
 }
 
 #div-h1>h1 {
@@ -146,7 +154,7 @@ aside {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    padding-bottom: 4px;
+    transition: transform 0.2s ease-in-out;
 }
 
 .info::after {
@@ -158,7 +166,11 @@ aside {
     width: 0%;
     height: 4px;
     background-color: #8B32F4;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+.info:hover {
+    transform: scale(1.2);
 }
 
 .info:hover::after {
@@ -235,6 +247,8 @@ aside {
 
 .icon {
     font-size: 30px;
+    transition: transform 0.2s ease-in-out;
+    padding-bottom: 10px;
 }
 
 .icon::after {
@@ -245,8 +259,8 @@ aside {
     transform: translateX(-50%);
     width: 0%;
     height: 4px;
-    background-color: #F3F3F3;
-    transition: width 0.3s ease-in-out;
+    background-color: #8B32F4;
+    transition: width 0.2s ease-in-out;
 }
 
 .icon:hover::after {
@@ -256,6 +270,10 @@ aside {
 .div-icon {
     padding-top: 20px;
     width: 60px;
+}
+
+.icon:hover {
+    transform: scale(1.4);
 }
 
 #contatos-container {
