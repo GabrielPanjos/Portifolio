@@ -63,6 +63,7 @@ nav>a:hover::after {
 
 nav>a:hover {
     transform: scale(1.15);
+    color: #fff;
 }
 
 #div-h1>h1 {
@@ -171,6 +172,7 @@ aside {
 
 .info:hover {
     transform: scale(1.2);
+    color: #fff;
 }
 
 .info:hover::after {
@@ -273,6 +275,7 @@ aside {
 }
 
 .icon:hover {
+    color: #fff;
     transform: scale(1.4);
 }
 

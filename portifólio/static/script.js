@@ -20,35 +20,44 @@ infoLinks.forEach(link => {
   });
 });
 
-let sobrePereira = false
-let linguagensEFerramentas = false
 
-
+let sobrePereira = false;
+let linguagensEFerramentas = false;
 
 function mostrarInfo(infoId) {
-
-  document.getElementById(infoId)
+  // Exibe o conteúdo desejado e aplica a animação do AOS
   if (infoId === 'sobre-pereira' && sobrePereira === false) {
-    document.getElementById('conteudo-apresentacao').style.display = "block"
-    document.getElementById('conteudo-linguagens-e-ferramentas').style.display = "none"
-    sobrePereira = true
+    // Exibe o conteúdo e aplica a animação
+    document.getElementById('conteudo-apresentacao').style.display = "block";
+    document.getElementById('conteudo-apresentacao').setAttribute('data-aos', 'fade-up'); // AOS animation
+    document.getElementById('conteudo-linguagens-e-ferramentas').style.display = "none";
+    sobrePereira = true;
+
+    // Atualiza o AOS para garantir que a animação ocorra
+    AOS.refresh();
 
   } else if (infoId === 'linguagens-e-ferramentas' && linguagensEFerramentas === false) {
-    document.getElementById('conteudo-apresentacao').style.display = "none"
-    document.getElementById('conteudo-linguagens-e-ferramentas').style.display = "block"
-    linguagensEFerramentas = true
+    // Exibe o conteúdo e aplica a animação
+    document.getElementById('conteudo-apresentacao').style.display = "none";
+    document.getElementById('conteudo-linguagens-e-ferramentas').style.display = "block";
+    document.getElementById('conteudo-linguagens-e-ferramentas').setAttribute('data-aos', 'zoom-in'); // AOS animation
+    linguagensEFerramentas = true;
+
+    // Atualiza o AOS para garantir que a animação ocorra
+    AOS.refresh();
 
   } else if (infoId === 'sobre-pereira' && sobrePereira === true) {
-    document.getElementById('conteudo-apresentacao').style.display = "none"
-    sobrePereira = false
+    // Esconde o conteúdo sem animação
+    document.getElementById('conteudo-apresentacao').style.display = "none";
+    sobrePereira = false;
 
   } else if (infoId === 'linguagens-e-ferramentas' && linguagensEFerramentas === true) {
-    document.getElementById('conteudo-linguagens-e-ferramentas').style.display = "none"
-    linguagensEFerramentas = false
-
+    // Esconde o conteúdo sem animação
+    document.getElementById('conteudo-linguagens-e-ferramentas').style.display = "none";
+    linguagensEFerramentas = false;
   }
-
 }
+
 
 document.getElementById("sobre-pereira").addEventListener("click", () => {
   mostrarInfo("sobre-pereira")
