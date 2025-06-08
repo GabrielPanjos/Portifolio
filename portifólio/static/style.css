@@ -81,15 +81,15 @@ a {
 }
 
 #portfolioDoPereira {
-    padding: 200px 0 800px 0;
+    padding: 200px 0 1000px 0;
 }
 
 h1 {
     text-align: center;
 }
 
-#projetos-do-pereira {
-    padding: 0 0 800px 0;
+.topico {
+    padding: 0 0 600px 0;
 }
 
 .main-header {
@@ -220,4 +220,22 @@ main>aside>div>p {
 #projects {
     padding-bottom: 800px;
     display: flex;
+    flex-direction: column;
+}
+
+.projetos {
+    background-color: #5320A6;
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#div-projeto-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-projeto-1 {
+    margin: auto;
+    padding-bottom: 300px;
 }
