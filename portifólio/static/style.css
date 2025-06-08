@@ -212,3 +212,12 @@ main>aside>div>p {
 .selecionar:hover::after {
     width: 100%;
 }
+
+#desenvolvedor-em-aprendizado {
+    font-size: 19px;
+}
+
+#projects {
+    padding-bottom: 800px;
+    display: flex;
+}
