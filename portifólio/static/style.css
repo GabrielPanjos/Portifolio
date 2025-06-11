@@ -231,14 +231,18 @@ main>aside>div>p {
     border-radius: 5px;
 }
 
-#div-projeto-2 {
-    display: flex;
-    justify-content: space-between;
+#div-projeto-1 {
+    margin-left: auto;
+    padding-bottom: 200px;
 }
 
-#div-projeto-1 {
-    margin: auto;
-    padding-bottom: 300px;
+#div-projeto-2 {
+    margin-right: auto;
+    padding-bottom: 200px;
+}
+
+#div-projeto-3 {
+    margin-left: auto;
 }
 
 .icon {
