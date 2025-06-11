@@ -224,7 +224,8 @@ main>aside>div>p {
 }
 
 .projetos {
-    background-color: #5320A6;
+    background-color: #141313;
+    box-shadow: 0 0 32px #f3f3f369;
     width: 600px;
     height: 350px;
     border-radius: 5px;
