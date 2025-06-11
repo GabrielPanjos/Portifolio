@@ -239,3 +239,49 @@ main>aside>div>p {
     margin: auto;
     padding-bottom: 300px;
 }
+
+.icon {
+    font-size: 30px;
+    transition: transform 0.2s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.icon::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 4px;
+    background-color: #8B32F4;
+    transition: width 0.2s ease-in-out;
+}
+
+.icon:hover::after {
+    width: 100%;
+}
+
+.div-icon {
+    padding-top: 20px;
+    width: 60px;
+}
+
+.icon:hover {
+    color: #fff;
+    transform: scale(1.4);
+}
+
+#contatos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-icon>a {
+    margin-right: 0px;
+}
+
+#contatos {
+    padding-top: 50px;
+}
