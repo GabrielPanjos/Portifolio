@@ -43,7 +43,7 @@ h3 {
     width: 280px;
     height: 280px;
     object-fit: cover;
-    object-position: center bottom;
+    object-position: center;
     border-radius: 100%;
     border: 4px solid #8B32F4;
 }
@@ -128,6 +128,10 @@ aside {
 section {
     padding: 180px 150px 0 150px;
     height: 100%;
+}
+
+#aboutMe {
+    width: 2100px;
 }
 
 main>aside>div>p {
@@ -292,6 +296,14 @@ main>aside>div>p {
     margin-right: 0px;
 }
 
-#contatos {
+#contacts {
     padding-top: 50px;
+}
+
+#apresentacao {
+    display: none;
+}
+
+#infolinguagensEFerramentas {
+    display: none;
 }
