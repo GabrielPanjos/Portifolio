@@ -307,3 +307,31 @@ main>aside>div>p {
 #infolinguagensEFerramentas {
     display: none;
 }
+
+.projeto > h2 {
+    align-items: center;
+    text-align: center;
+}
+
+#div-projeto-1 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-projeto-2 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-projeto-3 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects > div > div > h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
